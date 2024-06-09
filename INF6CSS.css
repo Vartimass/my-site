@@ -1,0 +1,120 @@
+.text_4
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+body {
+	color: rgb(245, 245, 220, 1.0); /* Цвет текста */
+	width: 99%;
+}
+
+main {
+	padding: 3%;
+	margin-top: 1%;
+	background: rgb(6, 11, 30, 1.0);
+	border-radius: 10px; /* Округление углов */
+}
+
+header {
+	background: rgb(6, 11, 30, 1.0);
+	text-align: center; /* Расположение текста */
+	padding: 20px; /* Внутриний отступ */
+	border-radius: 10px; /* Округление углов */
+	right: 5%;
+}
+
+h1 {
+	background: rgb(210, 2, 34, 1.0);
+	padding: 20px; /* Внутриний отступ */
+	border-radius: 30px; /* Округление углов */
+}
+
+nav {
+	background: rgb(79, 40, 45, 1.0);
+	text-align: center; /* Расположение текста */
+	padding: 10px; /* Внутриний отступ */
+	border-radius: 10px; /* Округление углов */
+	width: 98%; /* Длина блока  */
+}
+
+a {
+	color: rgb(245, 245, 220, 1.0); /* Цвет текста */
+	text-decoration: none; /* Без подчёркивания */
+	font-size: 25px; /* Размер шрифта; по умолчанию 14px */
+}
+
+a:hover { /* Меняем цвет при наведение на него; :hover - это класс пишем через одиночный : */
+	color: rgb(133, 133, 133, 1.0);
+}
+
+section {
+	background: rgb(79, 40, 45, 1.0);
+
+	padding: 20px; /* Внутриний отступ */
+	margin-top: 1%;
+	display: flex;
+	align-items: center;
+
+}
+
+section pre {
+	margin: 20px;
+	font-family: "Time New Roman";
+	font-size: 14px; /* Размер шрифта; по умолчанию 14px */
+	text-align: center; /* Расположение по центру текста */
+}
+
+.text_1 {
+	background: rgb(69, 102, 107, 1.0);
+	padding: 20px;
+	border-radius: 10px; /* Округление углов */
+	margin-left: 0%;
+	width: 200px; /* Длина блока  */
+}
+
+.text_2 {
+    background: rgb(69, 102, 107, 1.0);
+ 	padding: 20px;
+    border-radius: 10px; /* Округление углов */
+    top: 50%;
+ 	width: 200px; /* Длина блока  */
+}
+
+.text_3 {
+	background: rgb(69, 102, 107, 1.0);
+	padding: 20px;
+	border-radius: 10px; /* Округление углов */
+	width: 200px; /* Длина блока  */
+}
+
+aside {
+	background: rgb(79, 40, 45, 1.0);
+	padding: 20px;
+	border-radius: 10px; /* Округление углов */
+	
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+aside pre {
+	font-family: "Time New Roman";
+	font-size: 14px; /* Размер шрифта; по умолчанию 14px */
+	text-align: center; /* Расположение по центру текста */
+}
+
+footer {
+	background: rgb(6, 11, 30, 1.0);
+	font-size: 14px; /* Размер шрифта; по умолчанию 14px */
+	text-align: right; /* Расположение справо текста */
+	padding: 20px;
+	border-radius: 10px; /* Округление углов */
+	margin-top: 2%;
+}
+
+footer a {
+	font-size: 18px; /* Размер шрифта; по умолчанию 14px */
+}
