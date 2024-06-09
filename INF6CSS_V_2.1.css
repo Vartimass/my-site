@@ -1,0 +1,40 @@
+* { /* Таким способ мы убираем все отступы, которые браузер добавляет сам */
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: rgb(181, 184, 177, 1.0);
+}
+
+header {
+	background: rgb(6, 11, 30, 1.0);
+	color: rgb(245,245,220, 1.0);
+	text-align: center; /* Расположение текста */
+	padding: 10px; /* Внутриний отступ */
+}
+
+nav {
+	background: rgb(194, 5, 43, 1.0);
+	text-align: center; /* Расположение текста */
+	font-size: 25px; /* Размер шрифта; по умолчанию 14px */
+	padding: 10px; /* Внутриний отступ */
+}
+section {
+	text-align: center; /* Расположение текста */
+	font-size: 25px; /* Размер шрифта; по умолчанию 14px */
+}
+a {
+	color: rgb(245,245,220, 1.0); /* Цвет текста */
+	text-decoration: none; /* Без подчёркивания */
+}
+
+a:hover { /* Меняем цвет при наведение на него; :hover - это класс пишем через одиночный : */
+	color: rgb(71, 74, 81, 1.0);
+}
+
+#img {
+	background: url("images/img.png") no-repeat center; /* Способ лучше всего работать с картинкой */
+	background-size: 30%; /* Размер картинки по экрану на 100% */
+	height: 500px;
+}

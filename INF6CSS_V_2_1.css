@@ -1,0 +1,86 @@
+* { /* Таким способ мы убираем все отступы, которые браузер добавляет сам */
+	margin: 0;
+	padding: 0;
+}
+
+#body
+{
+	background: rgb(181, 0, 177, 1.0);
+}
+
+form {
+	background: rgb(100, 11, 30, 1.0);
+	color: rgb(245,245,220, 1.0);
+	text-align: center; /* Расположение текста */
+	padding: 10px; /* Внутриний отступ */
+}
+
+nav {
+	background: rgb(194, 5, 43, 1.0);
+	text-align: center; /* Расположение текста */
+	font-size: 25px; /* Размер шрифта; по умолчанию 14px */
+	padding: 10px; /* Внутриний отступ */
+}
+section {
+	text-align: center; /* Расположение текста */
+	font-size: 25px; /* Размер шрифта; по умолчанию 14px */
+}
+a {
+	color: rgb(245,245,220, 1.0); /* Цвет текста */
+	text-decoration: none; /* Без подчёркивания */
+}
+
+a:hover { /* Меняем цвет при наведение на него; :hover - это класс пишем через одиночный : */
+	color: rgb(71, 74, 81, 1.0);
+}
+{
+font-size: 50px;
+background-color: darkolivegreen;
+}
+
+div[kvadrat]{
+	
+	background-color: #fffff;
+	height: 300px;
+	width: 300px;
+}
+
+
+div[kvadrat1]{
+background-color: #4682B4;
+
+height: 100px;
+width: 100px;
+rotate: 45deg;
+margin-left: 100px;
+border-radius: 20px;
+margin-top: -250px;
+border:2px solid black
+
+}
+
+
+div[poloska1]{
+    background-color: #FFFF00;
+    
+    height: 100px;
+    width: 100px;
+    rotate: 100deg;
+    margin-left: 38px;
+	border-radius: 20px;
+    border:2px solid black
+    
+    
+    }
+div[kvadrat2]{
+    background-color: #FF4500;
+    
+    height: 100px;
+    width: 100px;
+    rotate: 340deg;
+    margin-left: 164px;
+	margin-top: -110px;
+    border-radius: 20px;
+    border:2px solid black
+    
+    }

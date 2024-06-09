@@ -1,0 +1,66 @@
+<!DOCTYPE html> <!-- Использовать html 5 версию -->
+
+<html>
+	<head> <!-- Указываем характеристику страницы -->
+		<meta charset="utf-8"> <!-- Кодировка для файла -->
+		<meta name="author" content="Dmitrii Chmozh"> <!-- Имя автора, нужно для упрощения поисковика в браузере -->
+		<meta name="description" content="Practice"> <!-- Описание страницы, нужно для упрощения поисковика в браузере -->
+
+		<link rel="stylesheet" href="INF6CSS_V_1.css"> <!-- Подключаем CSS файл -->
+		<title>Practice</title> <!-- Practice-->
+	<head>
+
+	<body> <!-- Указываем объекты для пользователя-->
+		<header> <!-- Шапка -->
+			<h1>Вариант 1</h1>
+		</header>
+
+		<main>
+			<nav>
+				<a href="INF6.html" class="href_3">Главная</a>
+				<a href="INF6_V_2.1.html" class="href_3"></a>
+				<a href="INF6_V_3.html" class="href_3">Практика</a>
+				<a href="INF6_V_4.html" class="href_3">Задание №30</a>
+			</nav>
+
+			<section>
+				<ol start="27" type="A"> <!-- Список пронумированный; start - c какого начать нумировать; type - как нумировать -->
+					<li>Зима</li> <!-- Элемент списка -->
+					<ul type="qsuare"> <!-- Список непронумированный; qsuare - вид кружочка -->
+						<li>Декабрь</li> <!-- Элемент списка -->
+						<li>Январь</li>
+						<li>Февраль</li>
+					</ul>
+					<li>Весна</li>
+					<li>Лето</li>
+					<li>Осень</li>
+				</ol>
+
+				<table border="1"  width="500px" height="100"> <!-- Таблица; border - создаёт обводку, где 1 - размер обводки в пикселях -->
+					</tr> <!-- Чтобы создать несколько, нужно написать снова tr -->
+						<td rowspan="2">Текст</td> <!-- rowspan - столбец -->
+						<td>Текст</td>
+						<td colspan="2">Текст</td> <!-- colspan - строка -->
+						<td>Текст</td>
+						<td>Текст</td>
+					</tr>
+					
+					</tr>
+						<td>Текст</td>
+						<td>Текст</td>
+						<td>Текст</td>
+						<td>Текст</td>
+						<td rowspan="2">Текст</td>
+					</tr>
+
+					</tr>
+						<td>Текст</td>
+						<td>Текст</td>
+						<td colspan="2">Текст</td>
+						<td>Текст</td>
+					</tr>
+				</table>
+			</section>
+		</main>
+	</body>
+</html>
